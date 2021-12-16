@@ -17,7 +17,7 @@ end
 def selection_sort(arr) #Sorts an array
   sorted_arr = []
   arr.length.times do
-    smallest_index = find_smallest_index(arr) #Finds the smallest element in the array
+    smallest_index = find_smallest_index(arr) # Finds the smallest element in the array
     sorted_arr.push(arr.delete_at(smallest_index)) # Adds the smallest element to new array
   end
     sorted_arr
