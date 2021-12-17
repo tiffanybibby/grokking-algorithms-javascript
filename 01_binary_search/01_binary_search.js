@@ -2,17 +2,21 @@
 
 function binarySearch(list, item) {
   let low = 0;
-  let high = list.length - 1;  //low and high keep track of which part of the list you’ll search in
+  let high = list.length - 1; //low and high keep track of which part of the list you’ll search in
 
-  while (low <= high) { //While you haven’t narrowed it down to one element …
+  while (low <= high) {
+    //While you haven’t narrowed it down to one element …
     let mid = low + high; //… check the middle element.
     let guess = list[mid];
 
-    if (guess === item) { //Found the item.
+    if (guess === item) {
+      //Found the item.
       return mid;
-    } else if (guess > item) { //The guess was too high.
+    } else if (guess > item) {
+      //The guess was too high.
       high = mid - 1;
-    } else { //The guess was too low.
+    } else {
+      //The guess was too low.
       low = mid + 1;
     }
   }
