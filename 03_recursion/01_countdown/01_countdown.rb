@@ -3,9 +3,10 @@
 def countdown(i)
   p i
   if i <= 0
+    # base case needed to avoid infite loop
     return
   else
-    countdown(i - 1)
+    countdown(i - 1) # recursive case
   end
 end
 
