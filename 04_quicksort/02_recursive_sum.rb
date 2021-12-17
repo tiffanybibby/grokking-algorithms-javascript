@@ -1,7 +1,7 @@
 # Sums values in the array using recursion
 
 def sumRecursive(array)
-  return 0 if array.empty?
+  return 0 if array.empty? # base case
   array[0] + sumRecursive(array.slice(1..array.length))
 end
 
