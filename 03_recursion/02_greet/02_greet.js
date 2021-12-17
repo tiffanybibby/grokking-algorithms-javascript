@@ -16,3 +16,7 @@ function bye() {
 }
 
 greet("maggie")
+// hello, maggie!
+// how are you, maggie?
+// getting ready to say bye...
+// ok bye!
