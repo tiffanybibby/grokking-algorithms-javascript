@@ -14,7 +14,7 @@ def find_smallest_index(arr)
 end
 
 # Then use the function to write selection sort:
-def selection_sort(arr) #Sorts an array
+def selection_sort(arr) # Sorts an array
   sorted_arr = []
   arr.length.times do
     smallest_index = find_smallest_index(arr) # Finds the smallest element in the array

@@ -9,7 +9,7 @@ function binarySearch(list, item) {
     let mid = low + high; //… check the middle element.
     let guess = list[mid];
 
-    if (guess === item) {
+    if (guess == item) {
       //Found the item.
       return mid;
     } else if (guess > item) {
