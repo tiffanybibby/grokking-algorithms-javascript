@@ -1,4 +1,4 @@
-# Quick array sorting
+# Quick array sorting O(n log n)
 
 def quicksort(array)
   return array if array.length < 2

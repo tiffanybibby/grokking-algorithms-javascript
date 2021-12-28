@@ -1,4 +1,4 @@
-// Quick array sorting
+// Quick array sorting O(n log n)
 
 function quicksort(array) {
   if (array.length < 2) {
